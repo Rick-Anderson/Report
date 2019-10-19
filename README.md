@@ -28,3 +28,4 @@ Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author 
 | **Brady Gaster** | @bradygaster  | SignalR | 7 |
 | Sourabh Shirhatti | @shirhatti  | ANCM, Server | 9 |
 | Hao Kung | @HaoK  | templates, security | 19 |
+| **Vijay Ramakrishnan**| @vijayrkn  | publish, SDK, scaffolding | 5 |
