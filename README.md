@@ -5,7 +5,6 @@ Command: `is:pr reviewed-by:pranavkm sort:updated-desc` + issue responses that c
 Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author considerable content and answer many issue questions.
 
 | Name | GitHub alias | Area | reviewed-by:them |
-
 | ---- | -------------| ---- | -------------- |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling | 7 |
