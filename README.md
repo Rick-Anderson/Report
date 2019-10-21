@@ -14,7 +14,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Ryan Brandenburg | @ryanbrandenburg |	Localization | 7 |
 | Taylor Mullen	| @NTaylorMullen | Razor | 9 |
 | **Andrew Stanton-Nurse** | @anurse | SignalR, DI, Middleware | 24 |
-| Brennan Conroy | @BrennanConroy | Logging |	26 |
+| Brennan Conroy | @BrennanConroy | Logging, SignalR |	26 |
 | Chris Ross | @Tratcher | Hosting, OIDC, HTTP.sys, Networking, Proxy/LB, Static files, middleware, security | 39 |
 | Justin Kotalik | @jkotalik | ANCM/IIS, Hosting, Kestrel | 13 |
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR | 23 |
