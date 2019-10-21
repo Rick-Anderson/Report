@@ -30,8 +30,9 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Hao Kung | @HaoK  | Templates, Security, Configuration, Options | 19 |
 | **Vijay Ramakrishnan**| @vijayrkn | Publish, SDK/Web SDK, Scaffolding | 5 |
 
+* @Pilchie (Kevin Pilch) - dev manager
 * @seancpeters (Sean Peters) – dotnet new
 * @mlorbetske (Mike Lorbetske) – dotnet new
 * @ajcvickers (Arthur Vickers) – EF Core, Identity
 * @prafullbhosale (Prafull Bhosale) – LibMan CLI
-    
+  
