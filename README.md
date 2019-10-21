@@ -33,7 +33,6 @@ Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author 
 
 * @seancpeters (Sean Peters) – dotnet new
 * @mlorbetske (Mike Lorbetske) – dotnet new
-* @divega (Diego Vega) – EF Core
 * @ajcvickers (Arthur Vickers) – EF Core, Identity
 * @prafullbhosale (Prafull Bhosale) – LibMan CLI
     
