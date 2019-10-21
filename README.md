@@ -15,12 +15,12 @@ Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author 
 | Taylor Mullen	| @NTaylorMullen |	Razor	| 9 |
 | **Andrew Stanton-Nurse** | @anurse |	SignalR | 24 |
 | Brennan Conroy | @BrennanConroy 	|  |	26 |
-| Chris Ross | @Tratcher | Hosting, OIDC  | 39 |
+| Chris Ross | @Tratcher | Hosting, middleware OIDC  | 39 |
 | Justin Kotalik| @jkotalik | Hosting, Kestrel,| 13 |
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR| 23 |
 | James Newton-King | @JamesNK  | gRPC, JSON, routing | 19 |
 | John Luo | @JunTaoLuo  | gRPC | 8 |
-| Ryan Nowak | @rynowak  | MVC, routing, everything | 2 |
+| Ryan Nowak | @rynowak  | MVC, Blazor, routing, everything | 2 |
 | Steve Sanderson | @SteveSandersonMS  | Blazor | 2 |
 | **Dan Roth** | @danroth27 | Blazor | 26 |
 | **Glenn Condron** | @glennc  | PM for  | 1 |
