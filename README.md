@@ -2,7 +2,7 @@
 
 Command: `is:pr reviewed-by:pranavkm sort:updated-desc` + issue responses that close a PR
 
-Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author considerable content and answer many issue questions.
+Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author considerable content and answer many issue questions.
 
 | Name | GitHub alias | Area | reviewed-by:them |
 | ---- | -------------| ---- | -------------- |
