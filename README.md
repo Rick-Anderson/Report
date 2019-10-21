@@ -11,7 +11,7 @@ Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author 
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling | 7 |
 | Doug Bunting | @dougbu | Git |	6 |
 | Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |	10 |
-| Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor |	51 |
+| Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
 | Ryan Brandenburg | @ryanbrandenburg |	Localization | 7 |
 | Taylor Mullen	| @NTaylorMullen | Razor | 9 |
 | **Andrew Stanton-Nurse** | @anurse | SignalR, DI, Middleware | 24 |
