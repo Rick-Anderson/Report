@@ -6,7 +6,7 @@ Reviews is not the best metric, as some folks like JunTaoLuo and JamesNK author 
 
 | Name | GitHub alias | Area | reviewed-by:them |
 
-| ---- | -------------| ---- | :--------------: |
+| ---- | -------------| ---- | -------------- |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling | 7 |
 | Doug Bunting | @dougbu | Git |	6 |
