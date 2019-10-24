@@ -13,8 +13,8 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
 | Ryan Brandenburg | @ryanbrandenburg |	Localization, Templating | 7 |
 | Taylor Mullen	| @NTaylorMullen | Razor, Tag Helpers, Razor tooling | 9 |
-| **Andrew Stanton-Nurse** | @anurse | SignalR, DI, Middleware | 24 |
-| Brennan Conroy | @BrennanConroy | Logging, SignalR |	26 |
+| **Andrew Stanton-Nurse** | @anurse | Manager (SignalR, Logging, Middleware, All Servers, Security) | 24 |
+| Brennan Conroy | @BrennanConroy | Logging, SignalR, Middleware |	26 |
 | Chris Ross | @Tratcher | Hosting, OIDC, HTTP.sys, Networking, Proxy/LB, Static files, middleware, security | 53 |
 | Justin Kotalik | @jkotalik | ANCM/IIS, Hosting, Kestrel | 13 |
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR | 23 |
