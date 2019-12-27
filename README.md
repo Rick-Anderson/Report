@@ -29,6 +29,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Sourabh Shirhatti | @shirhatti | ANCM/IIS, Server, Nginx/Apache/Linux | 9 |
 | Hao Kung | @HaoK  | Templates, Security, Configuration, Options | 19 |
 | **Vijay Ramakrishnan**| @vijayrkn | Publish, SDK/Web SDK, Scaffolding | 5 |
+| Deep Choudhery | @deepchoudhery | Scaffolding | 0 |
 
 * @Pilchie (Kevin Pilch) - dev manager
 * @seancpeters (Sean Peters) – dotnet new
