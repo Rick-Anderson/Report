@@ -7,6 +7,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Name | GitHub alias | Area | reviewed-by:them |
 | ---- | -------------| ---- | -------------- |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
+| **Jeremy Likness** | @JeremyLikness | Data-access Manager | 0 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates | 7 |
 | Doug Bunting | @dougbu | Git |	6 |
 | Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |	10 |
