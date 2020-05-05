@@ -38,3 +38,4 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 * @ajcvickers (Arthur Vickers) – EF Core, Identity
 * @prafullbhosale (Prafull Bhosale) – LibMan CLI
   
+`is:issue is:open priority sort:reactions-+1-desc` lists top upvoted issues.
