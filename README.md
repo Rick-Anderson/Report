@@ -21,7 +21,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR | 23 |
 | James Newton-King | @JamesNK | gRPC, JSON, routing | 19 |
 | John Luo | @JunTaoLuo | gRPC, Response Caching Middleware | 8 |
-| Ryan Nowak | @rynowak | MVC, Routing, Endpoint Routing, Blazor, Health Checks, everything | 2 |
+| ~Ryan Nowak~ | @rynowak | MVC, Routing, Endpoint Routing, Blazor, Health Checks, everything | 2 |
 | Steve Sanderson | @SteveSandersonMS  | Blazor | 2 |
 | **Dan Roth** | @danroth27 | Blazor | 26 |
 | **Glenn Condron** | @glennc | PM for  | 1 |
