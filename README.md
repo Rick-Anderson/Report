@@ -4,6 +4,8 @@ Command: `is:pr reviewed-by:pranavkm sort:updated-desc` + issue responses that c
 
 Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author considerable content and answer many issue questions.
 
+[**runtime/docs/area-owners**](https://github.com/dotnet/runtime/blob/master/docs/area-owners.md)
+
 | Name | GitHub alias | Area | reviewed-by:them |
 | ---- | -------------| ---- | -------------- |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
