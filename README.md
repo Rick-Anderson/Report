@@ -17,14 +17,12 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
 | Ryan Brandenburg | @ryanbrandenburg |	Localization, Templating | 7 |
 | Taylor Mullen	| @NTaylorMullen | Razor, Tag Helpers, Razor tooling | 9 |
-| ~**Andrew Stanton-Nurse**~ | @anurse | Manager (SignalR, Logging, Middleware, All Servers, Security) | 24 |
 | Brennan Conroy | @BrennanConroy | Logging, SignalR, Middleware |	26 |
 | Chris Ross | @Tratcher | Hosting, OIDC, HTTP.sys, Networking, Proxy/LB, Static files, middleware, security | 53 |
 | Justin Kotalik | @jkotalik | ANCM/IIS, Hosting, Kestrel | 13 |
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR | 23 |
 | James Newton-King | @JamesNK | gRPC, JSON, routing | 19 |
 | John Luo | @JunTaoLuo | gRPC, Response Caching Middleware | 8 |
-| ~Ryan Nowak~ | @rynowak | MVC, Routing, Endpoint Routing, Blazor, Health Checks, everything | 2 |
 | Steve Sanderson | @SteveSandersonMS  | Blazor | 2 |
 | **Dan Roth** | @danroth27 | Blazor | 26 |
 | **Glenn Condron** | @glennc | PM for  | 1 |
@@ -37,9 +35,8 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Deep Choudhery | @deepchoudhery | Scaffolding | 0 |
 
 * @Pilchie (Kevin Pilch) - dev manager
-* @seancpeters (Sean Peters) – dotnet new
-* @mlorbetske (Mike Lorbetske) – dotnet new
+* @KathleenDollard (Kathleen Dollard) – dotnet new
 * @ajcvickers (Arthur Vickers) – EF Core, Identity
-* @prafullbhosale (Prafull Bhosale) – LibMan CLI
+* @tlmii (Tim Mulholland) - HTTP REPL, Libman
   
 `is:issue is:open priority sort:reactions-+1-desc` lists top upvoted issues.
