@@ -11,7 +11,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager | 0 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates | 7 |
-| Doug Bunting | @dougbu | everything + Git |	6 |
+| Doug Bunting | @dougbu | Git and releases only |	6 |
 | Eric StJohn | @ericstj | extensions |	 |
 | Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |	10 |
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
