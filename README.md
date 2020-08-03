@@ -1,5 +1,6 @@
 #  PU reviews in ASP.NET Core docs repo
 
+[ALL PMs](https://teams.microsoft.com/l/channel/19%3A21620dee0f794cbd808207242678ac45%40thread.skype/tab%3A%3A1c2596c2-3129-48ec-9712-1e5458cfc31a?groupId=fdff90ed-0b3b-4caa-a30a-efb4dd47665f&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
 Command: `is:pr reviewed-by:pranavkm sort:updated-desc` + issue responses that close a PR
 
 Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author considerable content and answer many issue questions.
