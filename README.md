@@ -13,7 +13,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager | 0 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates | 7 |
 | Doug Bunting | @dougbu | Git and releases only |	6 |
-| Eric StJohn | @ericstj | extensions |	 |
+| Eric StJohn | @ericstj | extensions, logging |	 |
 | Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |	10 |
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
 | Ryan Brandenburg | @ryanbrandenburg |	Localization, Templating | 7 |
@@ -41,3 +41,9 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 * @tlmii (Tim Mulholland) - HTTP REPL, Libman
   
 `is:issue is:open priority sort:reactions-+1-desc` lists top upvoted issues.
+
+## External 
+
+| Name | GitHub alias | Area | 
+| ---- | -------------| ---- |
+| Cijo Thomas | @cijothomas | ApplicationInsights |
