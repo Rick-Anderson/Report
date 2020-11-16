@@ -17,7 +17,6 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | Eric StJohn | @ericstj | extensions, logging |	 |
 | Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |	10 |
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |	51 |
-| Ryan Brandenburg | @ryanbrandenburg |	Localization, Templating | 7 |
 | Taylor Mullen	| @NTaylorMullen | tooling and Razor tooling | 9 |
 | Brennan Conroy | @BrennanConroy | Logging, SignalR, Middleware |	26 |
 | Chris Ross | @Tratcher | Hosting, OIDC, HTTP.sys, Networking, Proxy/LB, Static files, middleware, security | 53 |
