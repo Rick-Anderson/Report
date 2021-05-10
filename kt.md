@@ -64,6 +64,7 @@ The table below includes some helpful links.
 
 Complete the following steps on the first of each month:
 
+bug in .NET 6 preview forces the use of .NET 5 via global.json. I'm working in C:\wrk\5
 1. Run a variation of the following command:
 
     ```bash
