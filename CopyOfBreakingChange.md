@@ -8,10 +8,6 @@ Bracketed text is a placeholder; replace the text with the requested information
 
 [Brief description of the change]
 
-### Preview Version
-
-[Preview Version in which the breaking change first occurred (for example, 6.xx)]
-
 ### Version introduced
 
 [Version in which the breaking change first occurred, including the preview number if applicable (for example, ASP.NET Core 6 Preview 6)]
