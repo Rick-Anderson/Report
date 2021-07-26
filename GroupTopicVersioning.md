@@ -149,7 +149,6 @@ If using DocFX to build locally, the destnation folders for each group can be pl
 
 Currently using the Blazor *Class-libraries* topic:
 
-* http://localhost:8080/group1/blazor/components/class-libraries.html
 * http://localhost:8080/aspnetcore-3.1-dest/blazor/components/class-libraries.html
 * http://localhost:8080/aspnetcore-5.0-dest/blazor/components/class-libraries.html
 * http://localhost:8080/aspnetcore-6.0-dest/blazor/components/class-libraries.html
