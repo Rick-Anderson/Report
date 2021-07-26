@@ -1,10 +1,10 @@
 # Group topic versioning (Version-by-file)
 
-Provides the benefit of versioning on a per-file basis. Therefore, topics rarely require versioning within their markdown file; thus, topics don't suffer difficult to manage version ranges or from duplicate headings when the whole topic is versioned in the same markdown file.
+Provides the benefit of versioning on a per-file basis. Therefore, topics rarely require versioning within their markdown file; thus, topics don't suffer difficult to manage version ranges or from duplicate headings (broken bookmarks) when the whole topic is versioned in the same markdown file.
 
 ## Topic markdown files
 
-Exist at their current root paths within the group version folders.
+Exist at their current root paths within the group (version) folders.
 
 For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1, 5.0, and 6.0 folders at the same path prior to adopting this approach (static assets folders and INCLUDE file paths similarly are laid out in the directory tree):
 
@@ -65,6 +65,12 @@ If the Blazor *Class-libraries* topic only had a 3.1 version, it would be fine t
           * indlude2.md
           * ...
       * class-libraries.md (`>= aspnetcore-3.1`, including possibly versioning within the file for different major releases)
+
+### Cross-links
+
+Link with XREF as usual. Cross-link to the API docs as usual.
+
+Generally, try to avoid cross-linking a different version. If you must, use `[{LINK TEXT}](?view=aspnetcore-{X.Y}&preserve-view=true)` in the same topic or add that querystring to an XREF for an external topic link. It's probably best if we just say in text to the reader 'select a different version of this topic' in these cases and not hard cross-link per DocFX engineer Ying Hua's advice.
 
 ### INCLUDE files
 
