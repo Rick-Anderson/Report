@@ -24,7 +24,7 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
       * includes
         * class-libraries (includes files, optional depending on need)
           * include1.md
-          * indlude2.md
+          * include2.md
           * ...
       * class-libraries.md (version: `>= aspnetcore-3.1 < aspnetcore-5.0`)
 * 5.0
@@ -37,7 +37,7 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
       * includes
         * class-libraries (includes files, optional depending on need)
           * include1.md
-          * indlude2.md
+          * include2.md
           * ...
       * class-libraries.md (version: `>= aspnetcore-5.0 < aspnetcore-6.0`)
 * 6.0
@@ -50,7 +50,7 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
       * includes
         * class-libraries (includes files, optional depending on need)
           * include1.md
-          * indlude2.md
+          * include2.md
           * ...
       * class-libraries.md (version: `>= aspnetcore-6.0`)
 
@@ -68,7 +68,7 @@ If the Blazor *Class-libraries* topic only had a 3.1 version, it would be fine t
       * includes
         * class-libraries (includes files, optional depending on need)
           * include1.md
-          * indlude2.md
+          * include2.md
           * ...
       * class-libraries.md (`>= aspnetcore-3.1`, including possibly versioning within the file for different major releases)
 
