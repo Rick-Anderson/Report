@@ -4,7 +4,7 @@ Provides the benefit of versioning on a per-file basis. Therefore, topics rarely
 
 ## Topic markdown files
 
-Exist at their current root paths within the group (version) folders. Currently, the groups (versions) are:
+Markdown files exist at their current root paths within the group (version) folders. Currently, the groups (versions) are:
 
 * 3.1
 * 5.0
