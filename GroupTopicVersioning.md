@@ -70,7 +70,11 @@ If the Blazor *Class-libraries* topic only had a 3.1 version, it would be fine t
           * include1.md
           * include2.md
           * ...
-      * class-libraries.md (`>= aspnetcore-3.1`, including possibly versioning within the file for different major releases)
+      * class-libraries.md (`>= aspnetcore-3.1`, including possibly versioning within the file for different major/minor releases)
+
+### Minor versions
+
+If a minor version doesn't exist as a group, we can continue to version within the file for that minor version. One just needs to ensure that the minor version is covered by the markdown file's version. That should be the case if adopting ranges for versions like `>= aspnetcore-5.0 < aspnetcore-6.0`. If one versions content in one of the files at 5.1, the build system should be able to cope with it. However, these remarks are theoretical at this point.
 
 ### Cross-links
 
