@@ -4,7 +4,13 @@ Provides the benefit of versioning on a per-file basis. Therefore, topics rarely
 
 ## Topic markdown files
 
-Exist at their current root paths within the group (version) folders.
+Exist at their current root paths within the group (version) folders. Currently, the groups (versions) are:
+
+* 3.1
+* 5.0
+* 6.0
+
+The groups (versions) can be anything really. The `docfx.json` file designates group-to-version moniker designations and specifies the minimum `moniker-range` for each. See: https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/docfx.json
 
 For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1, 5.0, and 6.0 folders at the same path prior to adopting this approach (static assets folders and INCLUDE file paths similarly are laid out in the directory tree):
 
