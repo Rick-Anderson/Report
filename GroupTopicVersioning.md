@@ -12,10 +12,13 @@ Markdown files exist at their current root paths within the group (version) fold
 
 The groups (versions) can be anything really. The `docfx.json` file designates group-to-version moniker designations and specifies the minimum `moniker-range` for each. See: https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/docfx.json
 
+Each group (version) has a `toc.yml` file, which must be named exactly `toc.yml`, with relative markdown `*.md` file `href` entries.
+
 For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1, 5.0, and 6.0 folders at the same path prior to adopting this approach (static assets folders and INCLUDE file paths similarly are laid out in the directory tree):
 
 * 3.1
   * blazor
+    * toc.yml
     * components
       * class-libraries (static assets, including possibly 3.1 samples/snippets)
         * image1.png
@@ -26,9 +29,10 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
           * include1.md
           * include2.md
           * ...
-      * class-libraries.md (version: `>= aspnetcore-3.1 < aspnetcore-5.0`)
+      * class-libraries.md (version: `aspnetcore-3.1`)
 * 5.0
   * blazor
+    * toc.yml
     * components
       * class-libraries (static assets, including possibly 5.0 samples/snippets)
         * image1.png
@@ -39,9 +43,10 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
           * include1.md
           * include2.md
           * ...
-      * class-libraries.md (version: `>= aspnetcore-5.0 < aspnetcore-6.0`)
+      * class-libraries.md (version: `aspnetcore-5.0`)
 * 6.0
   * blazor
+    * toc.yml
     * components
       * class-libraries (static assets, including possibly 6.0 samples/snippets)
         * image1.png
@@ -52,29 +57,13 @@ For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1,
           * include1.md
           * include2.md
           * ...
-      * class-libraries.md (version: `>= aspnetcore-6.0`)
+      * class-libraries.md (version: `aspnetcore-6.0`)
 
-Blazor topics require one topic per group (version) folder. However, this isn't required. Markdown files can appear in any single, double, or more group (version) folders so long as their version isn't in conflict with any other markdown file.
-
-If the Blazor *Class-libraries* topic only had a 3.1 version, it would be fine to simply maintain the following for all versions (e.g., 5.0, 6.0) of ASP.NET Core:
-
-* 3.1
-  * blazor
-    * components
-      * class-libraries (static assets, including possibly 3.1, 5.0, and/or 6.0 samples/snippets)
-        * image1.png
-        * image2.png
-        * ...
-      * includes
-        * class-libraries (includes files, optional depending on need)
-          * include1.md
-          * include2.md
-          * ...
-      * class-libraries.md (`>= aspnetcore-3.1`, including possibly versioning within the file for different major/minor releases)
+Blazor topics require one topic per group (version) folder and must be versioned exactly for one release. Spanning releases doesn't seem to be supported. For example, only having one topic in the `3.1` folder with `monikerRange: >= 'aspnetcore-3.1'` breaks topic highlighting in the ToC and should be avoided.
 
 ### Minor versions
 
-If a minor version doesn't exist as a group, we can continue to version within the file for that minor version. One just needs to ensure that the minor version is covered by the markdown file's version. That should be the case if adopting ranges for versions like `>= aspnetcore-5.0 < aspnetcore-6.0`. If one versions content in one of the files at 5.1, the build system should be able to cope with it. However, these remarks are theoretical at this point.
+Minor versions of the docs should have a full version folder (e.g., `5.1`), a full set of docs (`*.md`), and its own ToC (`toc.yml`).
 
 ### Cross-links
 
@@ -93,27 +82,73 @@ The challenge of adopting such an approach is that for every release drop all su
 
 ## ToC
 
-Currently, the repo is using a single, root `toc.yml` file. Each group-versioned topic must appear in the file for each version path.
-
-For example, the Blazor *Components* node *Class-libraries* topic exists in 3.1, 5.0, and 6.0 versions:
+Currently, the repo is using a single, root `toc.yml` file for non-grouped (non-versioned) topics. The root `toc.yml` places the three grouped (versioned) `toc.yml` files in the spot where they should be rendered. For the current Blazor nodes, the root `toc.yml` has the following entries where `Blazor` should appear in the full ToC:
 
 ```yml
-- name: Class libraries
-  href: 3.1/blazor/components/class-libraries.md
-- name: Class libraries
-  href: 5.0/blazor/components/class-libraries.md
-- name: Class libraries
-  href: 6.0/blazor/components/class-libraries.md
+...
+- name: Blazor
+  href: 3.1/blazor/toc.yml
+- name: Blazor
+  href: 5.0/blazor/toc.yml
+- name: Blazor
+  href: 6.0/blazor/toc.yml
+...
 ```
 
-If the Blazor *Class-libraries* topic were only a single topic that applied to all versions of ASP.NET Core (i.e., `>= aspnetcore-3.1`), then a single entry suffices:
+https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/toc.yml#L325-L330
+
+Taking the `5.0` Blazor `toc.yml` file as an example, it specifies the Blazor ToC for 5.0 as it lays the files out and using relative markdown file (`*.md`) linking.
+
+`5.0/blazor/toc.yml` (shortened for display here; select the link that follows to see the full file):
 
 ```yml
-- name: Class libraries
-  href: 3.1/blazor/components/class-libraries.md
+items:
+- name: Overview
+  href: index.md
+...
+- name: Fundamentals
+  items:
+    - name: Routing
+      href: fundamentals/routing.md
+    - name: Configuration
+      href: fundamentals/configuration.md
+    ...
+- name: Components
+  items:
+    - name: Overview
+      href: components/index.md
+    - name: Layouts
+      href: components/layouts.md
+    ...
+- name: Globalization and localization
+  href: globalization-localization.md
+- name: Forms and validation
+  href: forms-validation.md
+- name: File uploads
+  href: file-uploads.md
+- name: JavaScript interop
+  items:
+    ...
+- name: Call a web API
+  href: call-web-api.md
+- name: Security and Identity
+  items:
+    - name: Overview
+      href: security/index.md
+    - name: Blazor WebAssembly
+      items:
+        ...
+    - name: Blazor Server
+      items:
+        ...
+    - name: Content Security Policy
+      href: security/content-security-policy.md
+- name: State management
+  href: state-management.md
+...
 ```
 
-The challege of maintaining a single `toc.yml` file with such a scheme is that the file could potentially grow so large that it's difficult to maintain for ASP.NET Core framework version drops and new major releases.
+https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/5.0/blazor/toc.yml
 
 ## Apply correct version to static assets
 
@@ -121,23 +156,23 @@ The static assets of grouped (versioned) markdown files ordinarily would collide
 
 ```json
 "monikerRange": {
-  "3.1/**/*.png": ">= aspnetcore-3.1 < aspnetcore-5.0",
-  "3.1/**/*.jpg": ">= aspnetcore-3.1 < aspnetcore-5.0",
-  "3.1/**/*.gif": ">= aspnetcore-3.1 < aspnetcore-5.0",
-  "3.1/**/*.svg": ">= aspnetcore-3.1 < aspnetcore-5.0",
-  "3.1/**/*.pdf": ">= aspnetcore-3.1 < aspnetcore-5.0",
+  "3.1/**/*.png": "aspnetcore-3.1",
+  "3.1/**/*.jpg": "aspnetcore-3.1",
+  "3.1/**/*.gif": "aspnetcore-3.1",
+  "3.1/**/*.svg": "aspnetcore-3.1",
+  "3.1/**/*.pdf": "aspnetcore-3.1",
  
-  "5.0/**/*.png": ">= aspnetcore-5.0 < aspnetcore-6.0",
-  "5.0/**/*.jpg": ">= aspnetcore-5.0 < aspnetcore-6.0",
-  "5.0/**/*.gif": ">= aspnetcore-5.0 < aspnetcore-6.0",
-  "5.0/**/*.svg": ">= aspnetcore-5.0 < aspnetcore-6.0",
-  "5.0/**/*.pdf": ">= aspnetcore-5.0 < aspnetcore-6.0",
+  "5.0/**/*.png": "aspnetcore-5.0",
+  "5.0/**/*.jpg": "aspnetcore-5.0",
+  "5.0/**/*.gif": "aspnetcore-5.0",
+  "5.0/**/*.svg": "aspnetcore-5.0",
+  "5.0/**/*.pdf": "aspnetcore-5.0",
  
-  "6.0/**/*.png": ">= aspnetcore-6.0",
-  "6.0/**/*.jpg": ">= aspnetcore-6.0",
-  "6.0/**/*.gif": ">= aspnetcore-6.0",
-  "6.0/**/*.svg": ">= aspnetcore-6.0",
-  "6.0/**/*.pdf": ">= aspnetcore-6.0"
+  "6.0/**/*.png": "aspnetcore-6.0",
+  "6.0/**/*.jpg": "aspnetcore-6.0",
+  "6.0/**/*.gif": "aspnetcore-6.0",
+  "6.0/**/*.svg": "aspnetcore-6.0",
+  "6.0/**/*.pdf": "aspnetcore-6.0"
 }
 ```
 
