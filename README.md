@@ -11,6 +11,7 @@ Reviews are not the best metric, as some folks like JunTaoLuo and JamesNK author
 | ---- | -------------| ---- | -------------- |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |  |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager | 3 |
+| **Rafiki Assumani** | @rafikiassumaniMSFT | Manager min API |  |
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager | 0 |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates | 7 |
 | Doug Bunting | @dougbu | Git and releases only |	6 |
