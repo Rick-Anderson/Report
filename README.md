@@ -13,7 +13,7 @@
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
 | Doug Bunting | @dougbu | Git and releases only |
 | Eric StJohn | @ericstj | extensions, logging |
-| Javier Calvarro Nelson |	@javiercn | Test, Hosting, Blazor |
+| Javier Calvarro Nelson |	@javiercn | Routing, Test, Hosting, Blazor |
 | Pranav Krishnamoorthy | @pranavkm	| File uploads, MVC/RP/web API, RCL, Model binding, Razor, Endpoint routing |
 | Taylor Mullen	| @NTaylorMullen | tooling and Razor tooling |
 | Brennan Conroy | @BrennanConroy | Logging, SignalR, Middleware |
