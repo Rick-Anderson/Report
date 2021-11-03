@@ -8,7 +8,7 @@
 | ---- | -------------| ---- |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
 | **Artak Mkrtchyan** | @mkArtakMSFT | Manager |
-| **Rafiki Assumani** | @rafikiassumaniMSFT | Manager min API |
+| **Rafiki Assumani** | @rafikiassumani-msft | Manager min API |
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
 | Doug Bunting | @dougbu | Git and releases only |
