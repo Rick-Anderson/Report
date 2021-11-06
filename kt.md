@@ -10,7 +10,9 @@ To publish API ref pages for a new ASP.NET Core product version:
 
 ## Moniker / version selector changes
 
-Each time a new ASP.NET Core product version is released, a new moniker is needed to support versioned content for that release. These monikers are managed in the [Docs Portal Monikers page](https://ops.microsoft.com/#/monikers). Filter that page's table using a **Platform** value of *dotnet* and a **Family** value of *ASP.NET*. The resulting monikers are shared by the conceptual docs and the API ref pages.
+![image](https://user-images.githubusercontent.com/3605364/140599706-2db0176c-5f61-4f77-840e-04e8584ad757.png)
+
+Each time a new ASP.NET Core product version is released, a new moniker is needed to support versioned content for that release. These monikers are managed in the [Docs Portal Monikers page](https://ops.microsoft.com/#/monikers). Filter that page's table using a **Platform** value of *dotnet* and a **Family** value of *ASP.NET*. The resulting monikers are shared by the conceptual docs and the API ref pages. 
 
 Speaking of versioning, [this section of *docfx.json*](https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/docfx.json#L100-L105) supports the version selector in the ASP.NET Core conceptual docs.
 
