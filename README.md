@@ -7,8 +7,9 @@
 | Name | GitHub alias | Area |
 | ---- | -------------| ---- |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
-| **Artak Mkrtchyan** | @mkArtakMSFT | Manager |
-| **Rafiki Assumani** | @rafikiassumani-msft | Manager min API |
+| **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
+| **Rafiki Assumani** | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership), Manager min API |
+| **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
 | **Safia Abdalla** | @captainsafia | PM |
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
