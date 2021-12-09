@@ -34,6 +34,7 @@
 | **Vijay Ramakrishnan**| @vijayrkn | Publish, SDK/Web SDK, Scaffolding |
 | **Angelos Petropoulos*| @AngelosP | Publish, SDK/Web SDK |
 | Deep Choudhery | @deepchoudhery | Scaffolding |
+| Khoi Pham  | @khoiph1 | MT localization |
 
 * @Pilchie (Kevin Pilch) - dev manager
 * @KathleenDollard (Kathleen Dollard) – dotnet new
