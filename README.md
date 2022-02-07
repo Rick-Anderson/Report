@@ -20,7 +20,6 @@
 | Taylor Mullen	| @NTaylorMullen | tooling and Razor tooling |
 | Brennan Conroy | @BrennanConroy | Logging, SignalR, Middleware |
 | Chris Ross | @Tratcher | Hosting, OIDC, HTTP.sys, Networking, Proxy/LB, Static files, middleware, security |
-| Justin Kotalik | @jkotalik | ANCM/IIS, Hosting, Kestrel |
 | Stephen Halter | @halter73 | Hosting, Kestrel, ANCM, SignalR |
 | James Newton-King | @JamesNK | gRPC, JSON, routing |
 | John Luo | @JunTaoLuo | gRPC, Response Caching Middleware |
