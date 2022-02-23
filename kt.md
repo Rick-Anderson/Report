@@ -4,7 +4,7 @@
 
 To publish API ref pages for a new ASP.NET Core product version:
 
-1. Submit a request at [aka.ms/publish-on-docs/reference](https://aka.ms/publish-on-docs/reference) with a list of packages for the new version.
+1. Submit a request at [aka.ms/publish-on-docs/reference](https://aka.ms/publish-on-docs/reference) with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore
 1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) that you've submitted the request. Email Doug Bunting for NuGet packages.
 1. Once Alma has created a pull request with the API changes, review the staging environment. Work with James Newton-King to ensure the staging environment looks correct.
 
