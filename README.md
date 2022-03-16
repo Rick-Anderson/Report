@@ -31,7 +31,7 @@
 | Sourabh Shirhatti | @shirhatti | ANCM/IIS, Server, Nginx/Apache/Linux |
 | Hao Kung | @HaoK  | Templates, Security, Configuration, Options |
 | **Vijay Ramakrishnan**| @vijayrkn | Publish, SDK/Web SDK, Scaffolding |
-| **Angelos Petropoulos*| @AngelosP | Publish, SDK/Web SDK |
+| **]Petropoulos**| @AngelosP | Publish, SDK/Web SDK |
 | Deep Choudhery | @deepchoudhery | Scaffolding |
 | Khoi Pham  | @khoiph1 | MT localization |
 
