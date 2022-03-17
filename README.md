@@ -6,6 +6,7 @@
 
 | Name | GitHub alias | Area |
 | ---- | -------------| ---- |
+| **Matt Soucoup** | @codemillmatt | Sr Cloud Developer Advocate |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
 | **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
 | **Rafiki Assumani** | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership), Manager min API |
