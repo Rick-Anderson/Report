@@ -40,7 +40,7 @@
 * @KathleenDollard (Kathleen Dollard) – dotnet new
 * @ajcvickers (Arthur Vickers) – EF Core, Identity
 * @tlmii (Tim Mulholland) - HTTP REPL, Libman
-* @v-alje (Alma Jenks) - API
+* @v-alje (Alma Jenks) - API see [api requests](https://github.com/Rick-Anderson/Report/blob/master/kt.md#api-ref-pages)
 
 `is:issue is:open priority sort:reactions-+1-desc` lists top upvoted issues.
 
