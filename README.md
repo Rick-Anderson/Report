@@ -50,6 +50,9 @@
 | ---- | -------------| ---- |
 | Cijo Thomas | @cijothomas | ApplicationInsights |
 
+## MT
+
+MT is run daily + another day for publishing. If no changes are seen in MT after 4 days, contact Khoi Pham  @khoiph1
 
 ## HT folders
 
