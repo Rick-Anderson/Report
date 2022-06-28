@@ -8,6 +8,8 @@ To publish API ref pages for a new ASP.NET Core product version:
 1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) that you've submitted the request. Email Doug Bunting for NuGet packages.
 1. Once Alma has created a pull request with the API changes, review the staging environment. Work with James Newton-King to ensure the staging environment looks correct.
 
+From Doug: If Alma just needs the list of packages for our main branch, I’d look at the Artifacts / Windows_Packages / Shipping list in an official build e.g. https://dev.azure.com/dnceng/_apis/resources/Containers/10936730/Windows_Packages?itemPath=Windows_Packages%2FRelease%2FShipping&%24format=zip&saveAbsolutePath=false. If they need every package (including the list of runtime packages for non-Windows platforms and non-shipping packages), Artifacts / PackagesArtifacts e.g. https://dev.azure.com/dnceng/7ea9116e-9fac-403d-b258-b31fcf1bb293/_apis/build/builds/1848412/artifacts?artifactName=PackageArtifacts&api-version=7.0&%24format=zip is the best place to look.
+
 ## Moniker / version selector changes
 
 To add or change monikers, [open an issue with OPS admin](https://ceapex.visualstudio.com/Onboarding/_workitems/edit/513805). See https://ceapex.visualstudio.com/Onboarding/_workitems/edit/562784/ the 7.0 request
