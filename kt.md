@@ -70,11 +70,11 @@ The table below includes some helpful links.
 
 Complete the following steps on the first of each month:
 
-bug in .NET 6 preview forces the use of .NET 5 via global.json. I'm working in C:\wrk\5
+must be run in folder at repo root, ie `C:\GH\aspnet\docs\1\AspNetCore.Docs`
 1. Run a variation of the following command:
 
     ```bash
-    dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --startdate 3/1/2021 --enddate 3/31/2021
+    dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --startdate 6/1/2022 --enddate 6/30/2022
     ```
 
     In the preceding example, all pull requests merged into *main* between March 1st and March 31st will be processed. The *[.whatsnew.json](https://github.com/dotnet/AspNetCore.Docs/blob/main/.whatsnew.json)* file in the *dotnet/AspNetCore.Docs* repo will be used by the tool to determine which pull requests are considered significant and how the Markdown file is generated.
