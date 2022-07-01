@@ -74,7 +74,7 @@ must be run in folder at repo root, ie `C:\GH\aspnet\docs\1\AspNetCore.Docs`
 1. Run a variation of the following command:
 
     ```bash
-    dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --startdate 6/1/2022 --enddate 6/30/2022
+    dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --startdate 6/1/2022 --enddate 6/30/2022 --savedir C:\
     ```
 
     In the preceding example, all pull requests merged into *main* between March 1st and March 31st will be processed. The *[.whatsnew.json](https://github.com/dotnet/AspNetCore.Docs/blob/main/.whatsnew.json)* file in the *dotnet/AspNetCore.Docs* repo will be used by the tool to determine which pull requests are considered significant and how the Markdown file is generated.
