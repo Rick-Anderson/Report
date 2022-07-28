@@ -1,5 +1,6 @@
 #  PU reviews in ASP.NET Core docs repo
 
+[asp.net core team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership)
 [ALL PMs](https://teams.microsoft.com/l/channel/19%3A21620dee0f794cbd808207242678ac45%40thread.skype/tab%3A%3A1c2596c2-3129-48ec-9712-1e5458cfc31a?groupId=fdff90ed-0b3b-4caa-a30a-efb4dd47665f&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47)
 
 [**runtime/docs/area-owners**](https://github.com/dotnet/runtime/blob/master/docs/area-owners.md)
