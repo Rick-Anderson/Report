@@ -78,7 +78,8 @@ must be run in folder at repo root, ie `C:\GH\aspnet\docs\1\AspNetCore.Docs`
 1. Run a variation of the following command:
 
     ```bash
-    dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --savedir C:\
+cd C:\GH\aspnet\docs\6\AspNetCore.Docs
+dotnet whatsnew --owner dotnet --repo AspNetCore.Docs --savedir C:\tmp
     ```
 
 When When the `startdate | enddate` arguments are omitted, they default to the first and last days of the previous month, respective such as `--startdate 6/1/2022 --enddate 6/30/2022 `
