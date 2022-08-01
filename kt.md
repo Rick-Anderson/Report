@@ -85,10 +85,7 @@ must be run in folder at repo root, ie `C:\GH\aspnet\docs\1\AspNetCore.Docs`
 When When the `startdate | enddate` arguments are omitted, they default to the first and last days of the previous month, respective such as `--startdate 6/1/2022 --enddate 6/30/2022 `
     In the preceding example, all pull requests merged into *main* between March 1st and March 31st will be processed. The *[.whatsnew.json](https://github.com/dotnet/AspNetCore.Docs/blob/main/.whatsnew.json)* file in the *dotnet/AspNetCore.Docs* repo will be used by the tool to determine which pull requests are considered significant and how the Markdown file is generated.
 
-1. Locate the generated Markdown file in the user profile directory of your machine. On my machine, the preceding command would have created *dotnet-AspNetCore.Docs-2021-03-01.md* in  
-```
-  C:\Users\riande\AppData\Roaming\whatsnew
-```
-3. Copy the generated Markdown file into the [*whats-new* folder](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/whats-new), and rename the file to match the naming convention that's been established. For example, rename *dotnet-AspNetCore.Docs-2021-03-01.md* to *2021-03.md*.
-4. Modify the pull request titles so that they're meaningful to the reader. For example, avoid pull request titles like "Edit pass on index.md". After doing this cleanup exercise a few times, you'll understand the importance of descriptive pull request titles. :-)
-5. In that same *whats-new* folder, update both *index.yml* and *toc.yml* with a link to the latest "what's new" page. Also, remove the oldest "what's new" page. We've been maintaining ONLY the last 6 months worth of pages.
+1. Locate the generated Markdown file in the `--savedir` previously specified.
+1. Copy the generated Markdown file into the [*whats-new* folder](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/whats-new), and rename the file to match the naming convention that's been established. For example, rename *dotnet-AspNetCore.Docs-2021-03-01.md* to *2021-03.md*.
+1. Modify the pull request titles so that they're meaningful to the reader. For example, avoid pull request titles like "Edit pass on index.md". After doing this cleanup exercise a few times, you'll understand the importance of descriptive pull request titles. :-)
+1. In that same *whats-new* folder, update both *index.yml* and *toc.yml* with a link to the latest "what's new" page. Also, remove the oldest "what's new" page. We've been maintaining ONLY the last 6 months worth of pages.
