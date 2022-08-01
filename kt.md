@@ -69,6 +69,7 @@ The table below includes some helpful links.
 ### ASP.NET Core "what's new" page generation
 
 When the key expires, generate a new PAT and store it in an environment variable named `GitHubKey`.
+
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/3605364/182247697-aa4885de-056a-469b-b011-c7ebd417fd7f.png">
 
 Complete the following steps on the first of each month:
