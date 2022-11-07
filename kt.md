@@ -13,6 +13,8 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
+See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
+
 To add or change monikers, [request a new moniker](https://aka.ms/publish-on-docs/monikers) -- old method, [open an issue with OPS admin](https://ceapex.visualstudio.com/Onboarding/_workitems/edit/513805). See https://ceapex.visualstudio.com/Onboarding/_workitems/edit/562784/ the 7.0 request
 
 ![image](https://user-images.githubusercontent.com/3605364/140599706-2db0176c-5f61-4f77-840e-04e8584ad757.png)
