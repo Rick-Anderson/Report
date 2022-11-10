@@ -13,7 +13,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
-From the [Moniker Request page](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR958mqNUZExPsLDhzSGD8aFUQk1aOFc2TDk2MjlSTjNIS0ZKRFhNQTM1Qy4u), submit a new request. You can get to the `Moniker Request page` from https://ops.microsoft.com/#/, at the top left search for `aspnet`, 
+From the [Moniker Request page](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR958mqNUZExPsLDhzSGD8aFUQk1aOFc2TDk2MjlSTjNIS0ZKRFhNQTM1Qy4u), submit a new request. You can get to the `Moniker Request page` from the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker), Request a moniker.
 
 <!--
 See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
