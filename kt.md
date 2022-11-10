@@ -13,11 +13,15 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
+From the [Moniker Request page](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR958mqNUZExPsLDhzSGD8aFUQk1aOFc2TDk2MjlSTjNIS0ZKRFhNQTM1Qy4u), submit a new request. You can get to the `Moniker Request page` from https://ops.microsoft.com/#/, at the top left search for `aspnet`, 
+
+<!--
 See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
 
 To add or change monikers, [request a new moniker](https://aka.ms/publish-on-docs/monikers) -- old method, [open an issue with OPS admin](https://ceapex.visualstudio.com/Onboarding/_workitems/edit/513805). See https://ceapex.visualstudio.com/Onboarding/_workitems/edit/562784/ the 7.0 request
 
 ![image](https://user-images.githubusercontent.com/3605364/140599706-2db0176c-5f61-4f77-840e-04e8584ad757.png)
+-->
 
 Each time a new ASP.NET Core product version is released, a new moniker is needed to support versioned content for that release. These monikers are managed in the [Docs Portal Monikers page](https://ops.microsoft.com/#/monikers). Filter that page's table using a **Platform** value of *dotnet* and a **Family** value of *ASP.NET*. The resulting monikers are shared by the conceptual docs and the API ref pages. 
 
