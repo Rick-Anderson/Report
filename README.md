@@ -1,7 +1,6 @@
 #  PU reviews in ASP.NET Core docs repo
 
 * [Gaurav Seth -PM Team Directory](https://microsoft.sharepoint.com/teams/DotNetTeam/_layouts/15/Doc.aspx?sourcedoc=%7Bad2883fe-3802-4a0a-baa5-342ad9788ed2%7D&action=edit&wd=target(General_Notes.one%7C48d17bd8-d27f-450a-ba3c-2a734aa96213%2FPM%20Team%20Directory%7C12efe9b6-fffc-4711-be35-e6f55c50d0e0%2F)&wdorigin=NavigationUrl&share=IgH-gyitAjgKSrqlNCrZeI7SAb9S4NdBhM0xUjRFZd174YM)
-* [asp.net core team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership)
 * [**runtime/docs/area-owners**](https://github.com/dotnet/runtime/blob/master/docs/area-owners.md)
 
 | Name | GitHub alias | Area |
