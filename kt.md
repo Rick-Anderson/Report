@@ -25,6 +25,8 @@ To add or change monikers, [request a new moniker](https://aka.ms/publish-on-doc
 
 Each time a new ASP.NET Core product version is released, a new moniker is needed to support versioned content for that release. These monikers are managed in the [Docs Portal Monikers page](https://ops.microsoft.com/#/monikers). Filter that page's table using a **Platform** value of *dotnet* and a **Family** value of *ASP.NET*. The resulting monikers are shared by the conceptual docs and the API ref pages. 
 
+<img width="467" alt="image" src="https://user-images.githubusercontent.com/3605364/204360470-848a55ce-4734-467d-974b-c8c0e01ab6fc.png">
+
 Speaking of versioning, [this section of *docfx.json*](https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/docfx.json#L100-L105) supports the version selector in the ASP.NET Core conceptual docs. EDIT: `docfx.json#L100-L105` doesn't exist
 
 ## Automatic labeling of GitHub issues
