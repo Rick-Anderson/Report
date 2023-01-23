@@ -18,6 +18,8 @@ From the [Moniker Request page](https://forms.office.com/Pages/ResponsePage.aspx
 * ASP.NET
 * Platform value of dotnet and Family value of ASP.NET
 * ASP.NET Core 8.0
+* aspnetcore-8.0
+* 
 <!--
 See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
 
