@@ -111,15 +111,13 @@ Here are the setting I choose for creating a new sprint project:
 
 Name:  "dotnet/docs <Month> sprint"  I include the dotnet/docs prefix because the new projects are org-wide
 Template: Backlog.
-Columns: Remove the following columns:
-	"no status"
-	"new"
+Columns: 
 	"backlog"
-	We use "ready", "in progress", "in review" and "done"
-Settings/Project settings: Update the description and default reviewer. Reviewer moves down one row from the previous month. (2 rows when the reviewer would be the author)
-Settings/Manage access: Invite the "docs" and "docs-write" GitHub teams. Give them "write" access.
+	We use "ready", "in progress", "in review" and "done" `next`
+Settings/Project settings: Update the description and default reviewer. ~Reviewer moves down one row from the previous month. (2 rows when the reviewer would be the author)~
+Settings/Manage access: Entire org has write access, that's all that's needed.
 Settings/Workflows: By default all workflows are off. Turn them all on. If the destination "status" has a red background, update the column to one of the configured columns.
-Go to https://github.com/dotnet/docs/projects , select "Add project" and add the new project to the Quick access for our repo.
+Go to [projects](https://github.com/dotnet/AspNetCore.Docs/projects) , select "Add project" and add the new project to the Quick access for our repo.
 
 Finally, email "dotnetossadmin@microsoft.com" and request that the project be moved from private to public. (New projects are private, and it requires an org admin to make them public.)
     
