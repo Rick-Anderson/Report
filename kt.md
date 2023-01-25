@@ -129,5 +129,5 @@ Finally, email "dotnetossadmin@microsoft.com" and request that the project be mo
 
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/3605364/214690634-f5244d88-4d13-4d46-aa0e-1b3a43a9bf94.png">
 
-	delete
-	![image](https://user-images.githubusercontent.com/3605364/214691785-65209a3d-8055-4b73-9841-1735d07ce421.png)
+<img width="269" alt="image" src="https://user-images.githubusercontent.com/3605364/214718589-9176f058-5508-4f3b-9b69-5e690b340ecb.png">
+
