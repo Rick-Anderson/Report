@@ -107,7 +107,24 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 
 ## Project
 
-The OneNote page is here:  [GitHub new projects](https://microsoft.sharepoint.com/:o:/r/teams/DotNETandWebDevContent/Shared%20Documents/DotNET%20Docs/NET%20Core%203.0?d=w90de2c695b444f2888e1148e946b4925&csf=1&web=1&e=xEWbit)
+Here are the setting I choose for creating a new sprint project:
+
+Name:  "dotnet/docs <Month> sprint"  I include the dotnet/docs prefix because the new projects are org-wide
+Template: Backlog.
+Columns: Remove the following columns:
+	"no status"
+	"new"
+	"backlog"
+	We use "ready", "in progress", "in review" and "done"
+Settings/Project settings: Update the description and default reviewer. Reviewer moves down one row from the previous month. (2 rows when the reviewer would be the author)
+Settings/Manage access: Invite the "docs" and "docs-write" GitHub teams. Give them "write" access.
+Settings/Workflows: By default all workflows are off. Turn them all on. If the destination "status" has a red background, update the column to one of the configured columns.
+Go to https://github.com/dotnet/docs/projects , select "Add project" and add the new project to the Quick access for our repo.
+
+Finally, email "dotnetossadmin@microsoft.com" and request that the project be moved from private to public. (New projects are private, and it requires an org admin to make them public.)
+    
+![image](https://user-images.githubusercontent.com/3605364/214691785-65209a3d-8055-4b73-9841-1735d07ce421.png)
+
 
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/3605364/214664937-17f45fc7-76ec-4cf4-bbb2-e7617536a5f7.png">
 
