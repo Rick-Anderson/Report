@@ -107,4 +107,4 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 
 ## Project
 
-<img width="385" alt="image" src="https://user-images.githubusercontent.com/3605364/214664777-fefe4dd7-7ec8-4ca1-acb9-3745003a3dd5.png">
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/3605364/214664937-17f45fc7-76ec-4cf4-bbb2-e7617536a5f7.png">
