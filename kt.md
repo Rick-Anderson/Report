@@ -121,7 +121,6 @@ Go to [projects](https://github.com/dotnet/AspNetCore.Docs/projects) , select "A
 
 Finally, email "dotnetossadmin@microsoft.com" and request that the project be moved from private to public. (New projects are private, and it requires an org admin to make them public.)
     
-![image](https://user-images.githubusercontent.com/3605364/214691785-65209a3d-8055-4b73-9841-1735d07ce421.png)
 
 
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/3605364/214664937-17f45fc7-76ec-4cf4-bbb2-e7617536a5f7.png">
@@ -129,3 +128,6 @@ Finally, email "dotnetossadmin@microsoft.com" and request that the project be mo
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/3605364/214686544-59b75d98-24e0-457d-877e-39d928a83946.png">
 
 <img width="482" alt="image" src="https://user-images.githubusercontent.com/3605364/214690634-f5244d88-4d13-4d46-aa0e-1b3a43a9bf94.png">
+
+	delete
+	![image](https://user-images.githubusercontent.com/3605364/214691785-65209a3d-8055-4b73-9841-1735d07ce421.png)
