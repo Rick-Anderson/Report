@@ -104,3 +104,7 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 1. Copy the generated Markdown file into the [*whats-new* folder](https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/whats-new), and rename the file to match the naming convention that's been established. For example, rename *dotnet-AspNetCore.Docs-2021-03-01.md* to *2021-03.md*.
 1. Modify the pull request titles so that they're meaningful to the reader. For example, avoid pull request titles like "Edit pass on index.md". After doing this cleanup exercise a few times, you'll understand the importance of descriptive pull request titles. :-)
 1. In that same *whats-new* folder, update both *index.yml* and *toc.yml* with a link to the latest "what's new" page. Also, remove the oldest "what's new" page. We've been maintaining ONLY the last 6 months worth of pages.
+
+## Project
+
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/3605364/214664777-fefe4dd7-7ec8-4ca1-acb9-3745003a3dd5.png">
