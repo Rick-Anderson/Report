@@ -107,6 +107,8 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 
 ## Project
 
+The OneNote page is here:  [GitHub new projects](onenote:https://microsoft.sharepoint.com/teams/DotNETandWebDevContent/Shared Documents/DotNET Docs/NET Core 3.0/GitHub tools.one#GitHub%20new%20projects&section-id=ab436377-5c86-4da8-b9bb-cf04f65448c9&page-id=ffdcb34c-0a0e-4869-8668-94fc7ad3a7c9&end)  ([Web view]([url](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmicrosoft.sharepoint.com%2Fteams%2FDotNETandWebDevContent%2F_layouts%2F15%2FDoc.aspx%3Fsourcedoc%3D%257b90de2c69-5b44-4f28-88e1-148e946b4925%257d%26action%3Dedit%26wd%3Dtarget%2528GitHub%2520tools.one%257Cab436377-5c86-4da8-b9bb-cf04f65448c9%252FGitHub%2520new%2520projects%257Cffdcb34c-0a0e-4869-8668-94fc7ad3a7c9%252F%2529%26wdorigin%3D703%26wdpreservelink%3D1&data=05%7C01%7CRick.Anderson%40microsoft.com%7C7c43762eeb974f74491b08dafe17c272%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638101675259032091%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=EQ1WWkqtU9AzigENqyBjlnsOWZ0iLfbNWwhshM1ihdU%3D&reserved=0)))
+
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/3605364/214664937-17f45fc7-76ec-4cf4-bbb2-e7617536a5f7.png">
 
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/3605364/214686544-59b75d98-24e0-457d-877e-39d928a83946.png">
