@@ -111,6 +111,7 @@ Go to https://github.com/orgs/dotnet/projects
 
 ![image](https://user-images.githubusercontent.com/3605364/215637269-b396eb23-4a18-4523-ad58-6b9f4e838896.png)
 
+<img width="292" alt="image" src="https://user-images.githubusercontent.com/3605364/215639185-3b137738-13f6-46c4-9ea7-9d5334a0e919.png">
 
 Here are the setting I choose for creating a new sprint project:
 
