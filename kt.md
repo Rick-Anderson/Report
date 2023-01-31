@@ -107,6 +107,8 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 
 ## Project
 
+Go to https://github.com/orgs/dotnet/projects
+
 ![image](https://user-images.githubusercontent.com/3605364/215637269-b396eb23-4a18-4523-ad58-6b9f4e838896.png)
 
 
