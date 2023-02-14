@@ -8,9 +8,9 @@
 | **Matt Soucoup** | @codemillmatt | Sr Cloud Developer Advocate |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
 | **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
-| **Rafiki Assumani** | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership), Manager min API |
+| ~**Rafiki Assumani**~ | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership), Manager min API |
+| **Safia Abdalla** | @captainsafia | PM and owns ~**Rafiki Assumani**~ for now  |
 | **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
-| **Safia Abdalla** | @captainsafia | PM |
 | **Jeremy Likness** | @JeremyLikness | Data-access Manager |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
 | Doug Bunting | @dougbu | Git and releases only |
