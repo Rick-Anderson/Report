@@ -7,11 +7,11 @@
 | ---- | -------------| ---- |
 | **Matt Soucoup** | @codemillmatt | Sr Cloud Developer Advocate |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
-| **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
-| ~**Rafiki Assumani**~ | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership), Manager min API |
+| **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md) |
+| ~**Rafiki Assumani**~ | @rafikiassumani-msft | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md)|
 | **Safia Abdalla** | @captainsafia | PM and owns ~**Rafiki Assumani**~ for now  |
-| **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) |
-| **Jeremy Likness** | @JeremyLikness | Data-access Manager |
+| **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md)|
+| **Jeremy Likness** | @JeremyLikness | ASP.NET Core PM on all things docs |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
 | Doug Bunting | @dougbu | Git and releases only |
 | Eric StJohn | @ericstj | extensions, logging |
