@@ -140,4 +140,5 @@ Finally, email "dotnetossadmin@microsoft.com" and request that the project be mo
 
 To display the project on the Projects page, select **Link a project**, and check it.
 	
-![image](https://user-images.githubusercontent.com/3605364/223882952-7fd40e58-5320-47c3-addc-912a275b953f.png)
+<img width="280" alt="image" src="https://user-images.githubusercontent.com/3605364/223883048-8dda9523-ef03-42f2-81ae-e4b752da144c.png">
+
