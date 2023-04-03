@@ -142,3 +142,5 @@ To display the project on the Projects page, select **Link a project**, and chec
 	
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/3605364/223883048-8dda9523-ef03-42f2-81ae-e4b752da144c.png">
 
+## Close project
+	Go to setting and select close
