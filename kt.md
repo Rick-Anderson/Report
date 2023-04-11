@@ -144,3 +144,8 @@ To display the project on the Projects page, select **Link a project**, and chec
 
 ## Close project
 	Go to setting and select close
+	
+## Generate PAT personal access token
+	
+	generate a PAT [here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
+	
