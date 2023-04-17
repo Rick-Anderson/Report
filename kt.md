@@ -154,3 +154,4 @@ To display the project on the Projects page, select **Link a project**, and chec
 * you need one for the OSPO AzDo instance, which is [here]([url](https://ossmsft.visualstudio.com/_usersSettings/tokens)) = must be ossmsft org, not msft-skilling
 * the only scope declared is UserProfile: read
 	
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/3605364/232592275-051eb818-6244-41fc-ad9b-03f15e178979.png">
