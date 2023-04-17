@@ -1,5 +1,7 @@
 # Scott's knowledge transfer doc for ASP.NET Core docs
 
+[here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
+
 ## API ref pages
 
 To publish API ref pages for a new ASP.NET Core product version:
