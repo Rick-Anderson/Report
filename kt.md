@@ -1,6 +1,5 @@
 # Scott's knowledge transfer doc for ASP.NET Core docs
 
-[here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
 
 ## API ref pages
 
@@ -149,7 +148,8 @@ To display the project on the Projects page, select **Link a project**, and chec
 	
 ## Generate PAT personal access token
 	
-	generate a PAT [here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
+generate a PAT [here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
+	[here](https://dev.azure.com/msft-skilling/_usersSettings/tokens)
 	
 ## OSPO_TOKEN
 
