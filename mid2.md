@@ -1,7 +1,7 @@
 ```mermaid
 sequenceDiagram
     participant Client
-    participant App
+    participant Application
     participant ExceptionHandler
     participant HSTS
     participant HttpsRedirection
@@ -13,8 +13,8 @@ sequenceDiagram
     participant CustomMiddleware1
     participant Endpoint
 
-    Client->>App: Request
-    App->>ExceptionHandler: Request
+    Client->>Application: Request
+    Application->>ExceptionHandler: Request
     ExceptionHandler->>HSTS: Request
     HSTS->>HttpsRedirection: Request
     HttpsRedirection->>StaticFiles: Request
@@ -33,6 +33,6 @@ sequenceDiagram
     StaticFiles-->>HttpsRedirection: Response
     HttpsRedirection-->>HSTS: Response
     HSTS-->>ExceptionHandler: Response
-    ExceptionHandler-->>App: Response
-    App-->>Client: Response
+    ExceptionHandler-->>Application: Response
+    Application-->>Client: Response
 ```
