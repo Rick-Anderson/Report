@@ -1,22 +1,24 @@
 ```mermaid
 graph TD;
-    subgraph Request Pipelineresponse
-    A[Exception Handling] -->|request| B[HTTPS Redirection];
-    B -->|request| C[Static Files];
-    C -->|request| D[Routing];
-    D -->|request| E[Authentication];
-    E -->|request| F[CORS];
-    F -->|request| G[Custom Middleware];
+    subgraph Request 
+    A[Exception Handling] -->|in| B[HTTPS Redirection];
+    B -->|in| C[Static Files];
+    C -->|in| D[Routing];
+    D -->|in| E[Authentication];
+    E -->|in| F[CORS];
+    F -->|in| G[Custom Middleware];
+       linkStyle 0 stroke-width:2px,fill:none,stroke:blue;
     end;
     
     subgraph Response Pipeline
-    G -->|response| F;
-    F -->|response| E;
-    E -->|response| D;
-    D -->|response| C;
-    C -->|response| B;
-    B -->|response| A;
+    G -->|rsp| F;
+    F -->|rsp| E;
+    E -->|rsp| D;
+    D -->|rsp| C;
+    C -->|rsp| B;
+    B -->|rsp| A;
+            linkStyle 1 stroke-width:2px,fill:none,stroke:green;
     end;
+```
+  
 
-     linkStyle 0 stroke-width:2px,fill:none,stroke:blue;
-        linkStyle 1 stroke-width:2px,fill:none,stroke:green;
