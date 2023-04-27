@@ -10,6 +10,7 @@ graph TD;
     end;
     
     subgraph Response Pipeline
+    H[Response] --> G;
     G --> F;
     F --> E;
     E --> D;
@@ -17,3 +18,4 @@ graph TD;
     C --> B;
     B --> A;
     end;
+```
