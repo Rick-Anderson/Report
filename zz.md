@@ -3,7 +3,7 @@ graph TD;
     A((A))-->|rq|B((B))
     B-->|rq|C((C))
     C-->|rq|D((D))
-    D--C
+    D--x|Return|C
     C--x|Return|B
     B--x|Return|A
 
