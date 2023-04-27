@@ -8,3 +8,12 @@ graph TD;
     E --> F[CORS];
     F --> G[Custom Middleware];
     end;
+    
+    subgraph Response Pipeline
+    G --> F;
+    F --> E;
+    E --> D;
+    D --> C;
+    C --> B;
+    B --> A;
+    end;
