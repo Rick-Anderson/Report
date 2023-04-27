@@ -26,3 +26,4 @@ sequenceDiagram
     StaticFiles-->>ExceptionHandler: Response
     ExceptionHandler-->>ASP.NET Core App: Response
     ASP.NET Core App-->>Client: Response
+```
