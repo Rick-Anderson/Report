@@ -1,19 +1,19 @@
 ```mermaid
 graph TD;
     subgraph Request Pipeline
-    A[Exception Handling] -->|solid line style| B[HTTPS Redirection];
-    B -->|solid line style| C[Static Files];
-    C -->|solid line style| D[Routing];
-    D -->|solid line style| E[Authentication];
-    E -->|solid line style| F[CORS];
-    F -->|solid line style| G[Custom Middleware];
+    A[Exception Handling] -->|solid| B[HTTPS Redirection];
+    B -->|solid| C[Static Files];
+    C -->|solid| D[Routing];
+    D -->|solid| E[Authentication];
+    E -->|solid| F[CORS];
+    F -->|solid| G[Custom Middleware];
     end;
     
     subgraph Response Pipeline
-    G -->|dotted line style| F;
-    F -->|dotted line style| E;
-    E -->|dotted line style| D;
-    D -->|dotted line style| C;
-    C -->|dotted line style| B;
-    B -->|dotted line style| A;
+    G -->|dotted| F;
+    F -->|dotted| E;
+    E -->|dotted| D;
+    D -->|dotted| C;
+    C -->|dotted| B;
+    B -->|dotted| A;
     end;
