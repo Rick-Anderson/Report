@@ -1,5 +1,6 @@
 ```mermaid
 graph TD;
+    subgraph Request Pipeline
     A[Exception Handling] --> B[HTTPS Redirection];
     B --> C[Static Files];
     C --> D[Routing];
@@ -8,6 +9,7 @@ graph TD;
     F --> G[Custom Middleware];
     end;
     
+    subgraph Response Pipeline
     G --> F;
     F --> E;
     E --> D;
