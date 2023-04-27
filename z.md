@@ -1,5 +1,5 @@
 ```mermaid
-graph LR;
+graph TD;
         A--v-->B[B]
         B-->|v|C[C]
          C-->|v|D[D];
