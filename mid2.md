@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Client
     participant Application
@@ -34,3 +35,4 @@ sequenceDiagram
     HSTS-->>ExceptionHandler: Response
     ExceptionHandler-->>Application: Response
     Application-->>Client: Response
+```
