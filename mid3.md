@@ -3,7 +3,6 @@ sequenceDiagram
     participant Client
     participant ASP.NET Core App
     participant ExceptionHandler
-    participant HttpsRedirection
     participant StaticFiles
     participant Routing
     participant Cors
@@ -13,8 +12,7 @@ sequenceDiagram
 
     Client->>ASP.NET Core App: Request
     ASP.NET Core App->>ExceptionHandler: Request
-    ExceptionHandler->>HttpsRedirection: Request
-    HttpsRedirection->>StaticFiles: Request
+    ExceptionHandler->>StaticFiles: Request
     StaticFiles->>Routing: Request
     Routing->>Cors: Request
     Cors->>Authentication: Request
@@ -25,8 +23,6 @@ sequenceDiagram
     Authentication-->>Cors: Response
     Cors-->>Routing: Response
     Routing-->>StaticFiles: Response
-    StaticFiles-->>HttpsRedirection: Response
-    HttpsRedirection-->>ExceptionHandler: Response
+    StaticFiles-->>ExceptionHandler: Response
     ExceptionHandler-->>ASP.NET Core App: Response
     ASP.NET Core App-->>Client: Response
-```
