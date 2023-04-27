@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant Client
     participant ASP.NET Core App
@@ -28,3 +29,4 @@ sequenceDiagram
     HttpsRedirection-->>ExceptionHandler: Response
     ExceptionHandler-->>ASP.NET Core App: Response
     ASP.NET Core App-->>Client: Response
+```
