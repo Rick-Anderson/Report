@@ -3,9 +3,9 @@ graph TD;
     A((A))-->|rq|B((B))
     B-->|rq|C((C))
     C-->|rq|D((D))
-    D--x|Return|C
-    C--x|Return|B
-    B--x|Return|A
+    D--x|rsp|C
+    C--x|rsp|B
+    B--x|rsp|A
 
     linkStyle 0 stroke-width:2px,fill:none,stroke:blue;
     linkStyle 1 stroke-width:2px,fill:none,stroke:blue;
