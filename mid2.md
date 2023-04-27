@@ -1,7 +1,7 @@
 ```mermaid
 sequenceDiagram
     participant Client
-    participant App
+    participant ASP.NET Core App
     participant ExceptionHandler
     participant HSTS
     participant HttpsRedirection
@@ -13,8 +13,8 @@ sequenceDiagram
     participant CustomMiddleware1
     participant Endpoint
 
-    Client->>App: Request
-    App->>ExceptionHandler: Request
+    Client->>ASP.NET Core App: Request
+    ASP.NET Core App->>ExceptionHandler: Request
     ExceptionHandler->>HSTS: Request
     HSTS->>HttpsRedirection: Request
     HttpsRedirection->>StaticFiles: Request
@@ -33,6 +33,6 @@ sequenceDiagram
     StaticFiles-->>HttpsRedirection: Response
     HttpsRedirection-->>HSTS: Response
     HSTS-->>ExceptionHandler: Response
-    ExceptionHandler-->>App: Response
-    App-->>Client: Response
+    ExceptionHandler-->>ASP.NET Core App: Response
+    ASP.NET Core App-->>Client: Response
 ```
