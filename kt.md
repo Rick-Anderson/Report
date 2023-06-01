@@ -112,6 +112,8 @@ When When the `startdate | enddate` arguments are omitted, they default to the f
 Go to https://github.com/orgs/dotnet/projects
 
 ![image](https://user-images.githubusercontent.com/3605364/215637269-b396eb23-4a18-4523-ad58-6b9f4e838896.png)
+<img width="673" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/a95b3316-a7c2-4f15-939e-5dbd20d3a02e">
+
 
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/3605364/215639185-3b137738-13f6-46c4-9ea7-9d5334a0e919.png">
 
