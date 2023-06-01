@@ -147,8 +147,9 @@ To display the project on the Projects page, select **Link a project**, and chec
 ## Close project
 	Go to setting and select close
 	
-	![image](https://github.com/Rick-Anderson/Report/assets/3605364/71ce732d-0294-46e6-8f22-19926fa90598)
+![image](https://github.com/Rick-Anderson/Report/assets/3605364/71ce732d-0294-46e6-8f22-19926fa90598.png)
 
+<img width="450" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/71ce732d-0294-46e6-8f22-19926fa90598.png">
 	
 ## Generate PAT personal access token
 	
