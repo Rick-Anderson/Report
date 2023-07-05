@@ -143,7 +143,7 @@ Finally, email "dotnetossadmin@microsoft.com" and request that the project be mo
 
 <img width="269" alt="image" src="https://user-images.githubusercontent.com/3605364/214718589-9176f058-5508-4f3b-9b69-5e690b340ecb.png">
 
-
+Go to **https://github.com/orgs/dotnet/projects**
 To display the project on the Projects page, select **Link a project**, and check it.
 	
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/3605364/223883048-8dda9523-ef03-42f2-81ae-e4b752da144c.png">
