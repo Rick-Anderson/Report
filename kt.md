@@ -5,7 +5,10 @@
 
 To publish API ref pages for a new ASP.NET Core product version:
 
-1. Submit a request at [aka.ms/publish-on-docs/reference](https://aka.ms/publish-on-docs/reference) with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
+1. Submit a request at https://review.learn.microsoft.com/en-us/content-production-service/topics/request-access-msft-skilling?branch=main
+2.cc https://github.com/v-alje
+That's it, that's all. Instructions below are for historical reference.
+3.   with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
 See [this workitem](https://dev.azure.com/msft-skilling/Content/_workitems/edit/86012)
 1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) that you've submitted the request. Email Doug Bunting for NuGet packages.
 1. Once Alma has created a pull request with the API changes, ***review the build***, it's impossible to review the file changes. Work with James Newton-King to ensure the staging environment looks correct.
