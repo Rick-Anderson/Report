@@ -20,6 +20,10 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
+
+<img width="557" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/6afbcb47-c05d-4dbd-85f8-b44a9c7e48ec">
+
+
 <img width="525" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/9a2687de-a3c5-4f99-b369-9376bc07e9b6">
 
 
