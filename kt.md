@@ -20,7 +20,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
-From the [Moniker Request page](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR958mqNUZExPsLDhzSGD8aFUQk1aOFc2TDk2MjlSTjNIS0ZKRFhNQTM1Qy4u), submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change) You can get to the `Moniker Request page` from the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker), Request a moniker. On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
+submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change) You can get to the `Moniker Request page` from the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker), Request a moniker. On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
 
 * ASP.NET
 * Platform value of dotnet and Family value of ASP.NET
