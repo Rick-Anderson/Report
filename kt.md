@@ -10,7 +10,7 @@ To publish API ref pages for a new ASP.NET Core product version:
 That's it, that's all. Instructions below are for historical reference.
 3.   with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
 See [this workitem](https://dev.azure.com/msft-skilling/Content/_workitems/edit/86012)
-1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) [github.com/v-aljethat](https://github.com/v-alje) you've submitted the request. Email Doug Bunting for NuGet packages.
+1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) -- [github.com/v-aljethat](https://github.com/v-alje) you've submitted the request. Email Doug Bunting for NuGet packages.
 1. Once Alma has created a pull request with the API changes, ***review the build***, it's impossible to review the file changes. Work with James Newton-King to ensure the staging environment looks correct.
 ![image](https://github.com/Rick-Anderson/Report/assets/3605364/d7d1c166-fd83-46f4-866c-67ac1b3fcfa8)
 
