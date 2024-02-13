@@ -21,13 +21,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 ## Moniker / version selector changes
 
 
-<img width="557" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/6afbcb47-c05d-4dbd-85f8-b44a9c7e48ec">
-
-
-<img width="525" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/9a2687de-a3c5-4f99-b369-9376bc07e9b6">
-
-
-submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change). [Request a moniker](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker) on  the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker). On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
+submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change). [Request a moniker](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker) on the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker). On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
 
 <img width="211" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/5c5bd0c4-936e-4807-a9a2-1f074a5afa0b">
 
@@ -36,7 +30,8 @@ submit a new request. Do that for new monikers ***OR*** to promote a preview mon
 * Platform value of dotnet and Family value of ASP.NET
 * ASP.NET Core 8.0
 * aspnetcore-8.0
-* 
+
+<img width="525" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/9a2687de-a3c5-4f99-b369-9376bc07e9b6">
 <!--
 See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
 
