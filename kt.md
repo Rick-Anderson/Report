@@ -23,6 +23,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change). [Request a moniker](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker) on the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker). On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
 
+https://ops.microsoft.com/#/monikers
 <img width="211" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/5c5bd0c4-936e-4807-a9a2-1f074a5afa0b">
 
 
@@ -31,8 +32,8 @@ submit a new request. Do that for new monikers ***OR*** to promote a preview mon
 * ASP.NET Core 8.0
 * aspnetcore-8.0
 
-<img width="525" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/9a2687de-a3c5-4f99-b369-9376bc07e9b6">
-<!--
+<img width="269" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/71765d24-84df-4182-8d13-4309f8d6c585">
+
 See [7.0 GA issue](https://portal.microsofticm.com/imp/v3/incidents/details/347401864/home)
 
 To add or change monikers, [request a new moniker](https://aka.ms/publish-on-docs/monikers) -- old method, [open an issue with OPS admin](https://ceapex.visualstudio.com/Onboarding/_workitems/edit/513805). See https://ceapex.visualstudio.com/Onboarding/_workitems/edit/562784/ the 7.0 request
