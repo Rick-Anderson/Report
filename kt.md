@@ -27,7 +27,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 <img width="525" alt="image" src="https://github.com/Rick-Anderson/Report/assets/3605364/9a2687de-a3c5-4f99-b369-9376bc07e9b6">
 
 
-submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change) You can get to the `Moniker Request page` from the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker), Request a moniker. On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
+submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change). [Request a moniker](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker) on  the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker). On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
 
 * ASP.NET
 * Platform value of dotnet and Family value of ASP.NET
