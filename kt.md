@@ -5,8 +5,9 @@
 
 To publish API ref pages for a new ASP.NET Core product version:
 
-1. Submit a request at https://review.learn.microsoft.com/en-us/content-production-service/topics/request-access-msft-skilling?branch=main
-2.cc https://github.com/v-alje
+1. Submit a request with the ref pub template at [Reference content request](https://review.learn.microsoft.com/en-us/content-production-service/topics/service-content-publishing?branch=main#reference-content-request) See [this user story](https://dev.azure.com/msft-skilling/Content/_workitems/edit/316842)
+2.cc @Alma Jenks ( https://github.com/v-alje)
+
 That's it, that's all. Instructions below are for historical reference.
 3.   with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
 See [this workitem](https://dev.azure.com/msft-skilling/Content/_workitems/edit/86012)
