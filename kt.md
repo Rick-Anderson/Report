@@ -21,7 +21,7 @@ From Doug: If Alma just needs the list of packages for our main branch, I’d lo
 
 ## Moniker / version selector changes
 
-
+[Request Monikers]([url](https://aka.ms/publish-on-docs/monikers)) (from https://ops.microsoft.com/#/monikers which shows all monikers)
 
 submit a new request. Do that for new monikers ***OR*** to promote a preview moniker to default (state change). [Request a moniker](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker) on the [Moniker help page](https://review.learn.microsoft.com/en-us/help/onboard/versions-monikers?branch=main#request-a-moniker). On new request, be sure it list preview, ie ASP.NET Core 8.0 preview
 
