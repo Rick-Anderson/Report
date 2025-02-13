@@ -1,15 +1,15 @@
 #  PU reviews in ASP.NET Core docs repo
 
 * [Gaurav Seth -PM Team Directory](https://microsoft.sharepoint.com/teams/DotNetTeam/_layouts/15/Doc.aspx?sourcedoc=%7Bad2883fe-3802-4a0a-baa5-342ad9788ed2%7D&action=edit&wd=target(General_Notes.one%7C48d17bd8-d27f-450a-ba3c-2a734aa96213%2FPM%20Team%20Directory%7C12efe9b6-fffc-4711-be35-e6f55c50d0e0%2F)&wdorigin=NavigationUrl&share=IgH-gyitAjgKSrqlNCrZeI7SAb9S4NdBhM0xUjRFZd174YM)
-* [**runtime/docs/area-owners**](https://github.com/dotnet/runtime/blob/master/docs/area-owners.md)
+* [**runtime/docs/area-owners**](https://github.com/dotnet/aspnetcore/blob/main/docs/area-owners.md)
 
 | Name | GitHub alias | Area |
 | ---- | -------------| ---- |
 | **Matt Soucoup** | @codemillmatt | Sr Cloud Developer Advocate |
 | **Maria Naggaga Nakanwagi** | @LadyNaggaga | PM who owns ASP.NET |
-| **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md) |
+| **Artak Mkrtchyan** | @mkArtakMSFT | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/aspnetcore/blob/main/docs/area-owners.md) |
 | **Safia Abdalla** | @captainsafia | PM and owns ~**Rafiki Assumani**~ for now  |
-| **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/runtime/blob/main/docs/area-owners.md)|
+| **Aditya Mandaleeka** | @adityamandaleeka | See [internal team ownership](https://github.com/dotnet/aspnetcore-internal/wiki/Team-Ownership) or [Area-owners](https://github.com/dotnet/aspnetcore/blob/main/docs/area-owners.md)|
 | **Jeremy Likness** | @JeremyLikness | ASP.NET Core PM on all things docs |
 | Ajay Bhargav Baaskaran | @ajaybhargavb | AspNetCore-Tooling, Razor, Templates |
 | Doug Bunting | @dougbu | Git and releases only |
