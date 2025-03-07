@@ -1,5 +1,4 @@
-# Scott's knowledge transfer doc for ASP.NET Core docs
-
+#  knowledge doc for ASP.NET Core docs
 
 ## API ref pages
 
