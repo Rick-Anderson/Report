@@ -5,17 +5,14 @@
 To publish API ref pages for a new ASP.NET Core product version:
 
 1. Submit a request with the ref pub template at [Reference content request](https://review.learn.microsoft.com/en-us/content-production-service/topics/service-content-publishing?branch=main#reference-content-request) See [this user story](https://dev.azure.com/msft-skilling/Content/_workitems/edit/316842)
-2. cc @Alma Jenks ( https://github.com/v-alje) --That's it, that's all. Instructions below are for historical reference.
-3. When the PR merges, ref is live, ask Sai or Alma to provide a link to the feedback form. See link in [this user story](https://dev.azure.com/msft-skilling/Content/_workitems/edit/316842)
-4.   with a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
+2. cc @Alma Jenks ( https://github.com/v-alje)
+4. From the PR, view a page then search for new APIs and spot check. Writers need to approve the PR per the PU. It's impossible to review the file changes.
+5. When the PR merges, ref is live, ask Sai or Alma to provide a link to the feedback form. See link in [this user story](https://dev.azure.com/msft-skilling/Content/_workitems/edit/316842) and leave kudos for them.
+6. That's all for ASP.NET Core APIs. Instructions below are for new APIs outside of ASP.NET Core.
+7. Need a list of packages for the new version. Here are the current configurations for ASP to reference: https://apidrop.visualstudio.com/binaries/_git/mrefconfig?path=/bundlepackages/aspnetcore  What is your ms.service or ms.product value? ms.prod: .NET 
 See [this workitem](https://dev.azure.com/msft-skilling/Content/_workitems/edit/86012)
-1. Notify [Alma Jenks](mailto:v-alje@microsoft.com) -- [github.com/v-aljethat](https://github.com/v-alje) you've submitted the request. Email Doug Bunting for NuGet packages.
-1. Once Alma has created a pull request with the API changes, ***review the build***, it's impossible to review the file changes. Work with James Newton-King to ensure the staging environment looks correct.
-![image](https://github.com/Rick-Anderson/Report/assets/3605364/d7d1c166-fd83-46f4-866c-67ac1b3fcfa8)
 
-[8.0 P5](https://dev.azure.com/msft-skilling/Content/_workitems/edit/117000/)
-
-From Doug: If Alma just needs the list of packages for our main branch, I’d look at the Artifacts / Windows_Packages / Shipping list in an official build e.g. https://dev.azure.com/dnceng/_apis/resources/Containers/10936730/Windows_Packages?itemPath=Windows_Packages%2FRelease%2FShipping&%24format=zip&saveAbsolutePath=false. If they need every package (including the list of runtime packages for non-Windows platforms and non-shipping packages), Artifacts / PackagesArtifacts e.g. https://dev.azure.com/dnceng/7ea9116e-9fac-403d-b258-b31fcf1bb293/_apis/build/builds/1848412/artifacts?artifactName=PackageArtifacts&api-version=7.0&%24format=zip is the best place to look.
+Old notes From Doug: If Alma just needs the list of packages for our main branch, I’d look at the Artifacts / Windows_Packages / Shipping list in an official build e.g. https://dev.azure.com/dnceng/_apis/resources/Containers/10936730/Windows_Packages?itemPath=Windows_Packages%2FRelease%2FShipping&%24format=zip&saveAbsolutePath=false. If they need every package (including the list of runtime packages for non-Windows platforms and non-shipping packages), Artifacts / PackagesArtifacts e.g. https://dev.azure.com/dnceng/7ea9116e-9fac-403d-b258-b31fcf1bb293/_apis/build/builds/1848412/artifacts?artifactName=PackageArtifacts&api-version=7.0&%24format=zip is the best place to look.
 
 ## Moniker / version selector changes
 
